@@ -13,6 +13,7 @@ hooks:
     cd proud
     drush verify-makefile drupal-org.make
     drush make --no-cache --drupal-org drupal-org.make .
+    drush make libraries.make . --no-core --contrib-destination=.
 
     cd ../../sites/all/modules
     mkdir apps
