@@ -20,9 +20,20 @@ Read more:
 * [More about Proud City](http://getproudcity.com)
 
 
-Running tests
+### Running tests
 ```
 java -jar tests/bin/selenium-server-*.jar
 terra e:test proud local
 
+```
+
+### Helpful bash scripts
+There are a few helpful bash scripts for dealing with all of the git sub projects.
+Run them all from this directory.
+```
+# Run the command `git status` across all of the submodules
+bash cmd.sh "git status"
+
+# Commit and push to all apps
+bash commit_apps.sh "Release 7.x-1.x-alpha1"
 ```
