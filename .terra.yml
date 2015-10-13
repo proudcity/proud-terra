@@ -30,6 +30,7 @@ hooks:
     git clone https://github.com/proudcity/proud_agency.git
     git clone https://github.com/proudcity/proud_document.git
     git clone https://github.com/proudcity/proud_social.git
+    git clone https://github.com/proudcity/proud_311_app.git
     git clone https://github.com/proudcity/proud_search.git
     cd ../dev
     git clone --branch 7.x-1.x http://git.drupal.org/project/angular_media.git
