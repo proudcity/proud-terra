@@ -5,8 +5,8 @@ docker_compose:
 
 hooks:
   build: |
-    drush dl drupal-7.39
-    mv drupal-7.39 www
+    drush dl drupal-7.41
+    mv drupal-7.41 www
 
     cd www/profiles
     git clone --branch 7.x-1.x https://github.com/proudcity/proud.git
