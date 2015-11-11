@@ -11,7 +11,7 @@ default:
     Behat\MinkExtension:
       goutte: null
       selenium2: null
-      base_url: 'http://localhost:32802'
+      base_url: 'http://localhost:32804'
     Drupal\DrupalExtension:
       blackbox: null
       drush:

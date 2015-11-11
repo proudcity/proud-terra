@@ -22,10 +22,14 @@ Read more:
 
 ### Running tests
 ```
+cd ./
 java -jar tests/bin/selenium-server-*.jar
+# Update `./behat.terra.yml` with base_url, wd_host values (after running command above)
 terra e:test proud local
-
 ```
+Helpful testing resources:
+* http://kevinquillen.com/bdd/2014/06/08/your-first-behat-test/
+
 
 ### Helpful bash scripts
 There are a few helpful bash scripts for dealing with all of the git sub projects.

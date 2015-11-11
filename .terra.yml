@@ -21,7 +21,7 @@ hooks:
     mkdir contrib
     mkdir custom
     cd apps
-    git clone https://github.com/proudcity/proud_faq.git
+    git clone --branch 7.x-1.x https://github.com/proudcity/proud_faq.git
     git clone --branch 7.x-1.x https://github.com/proudcity/proud_event.git
     git clone --branch 7.x-1.x https://github.com/proudcity/proud_landingpage.git
     git clone --branch 7.x-1.x https://github.com/proudcity/proud_news.git
