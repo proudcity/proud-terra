@@ -30,10 +30,13 @@ hooks:
     git clone https://github.com/proudcity/proud_people.git
     git clone https://github.com/proudcity/proud_agency.git
     git clone https://github.com/proudcity/proud_document.git
+    git clone --branch 7.x-1.x https://github.com/proudcity/proud_aggregator.git
+    git clone --branch 7.x-1.x https://github.com/proudcity/proud_social_app.git
     git clone --branch 7.x-1.x https://github.com/proudcity/proud_social.git
     git clone --branch 7.x-1.x https://github.com/proudcity/proud_311_app.git
     git clone --branch 7.x-1.x https://github.com/proudcity/proud_map_app.git
     git clone --branch 7.x-1.x https://github.com/proudcity/proud_search.git
+    git clone --branch 7.x-1.x https://github.com/proudcity/proud_payment.git
     git clone --branch 7.x-1.x https://github.com/proudcity/proudcity_pages.git
 
     cd ../dev
